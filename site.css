@@ -1,0 +1,101 @@
+*{margin: 0;}
+html,body{height: 100%;}
+body{font-family:cursive;
+}
+h1{margin: 3em 0 1em 0; color:rgb(80, 80, 94);}
+p{padding-top:  20px;padding-left:3px;color:rgb(80, 80, 94);padding-right: 5px;}
+header{display: block;
+       position: fixed;
+       top: 0px;left:0;width: 100%;background-color: rgb(205, 243, 255); padding: 5px;
+       }
+nav a:visited, nav a:link{ color:rgb(80, 80, 94); text-decoration: none;}
+nav > ul {display:inline;padding: 0; text-align: right;}
+nav > ul > li {display:inline-block;list-style: none;margin: 0 5px 0 5px;}
+main{display: block;padding: auto;min-height:85%;}
+footer {padding: 1em;float: left;}
+aside{padding: 3.5em;width: 15%;text-align: left;margin-left: 1em;}
+article{width: 85%;padding: auto;}
+@media only screen and (min-width: 760px){
+main {display: flex;}
+aside {margin-left: 2%;width: 25%;}
+#profile-picture {
+    float: left;
+    width: 250px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 30px;}
+#rose {
+  float: left;
+  width: 150px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+padding-top:5%;
+padding-left: 15%;  }
+#food {
+    float: right;
+    width: 170px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 5%;
+       }
+#fish {
+  float: right;
+  width: 170px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  padding-right: 5%;}
+#wfh {
+  float: left;
+  width: 170px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+padding-top:1%;
+padding-left: 15%; } 
+#ahm {
+  float: left;
+  width: 140px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+padding-left: 15%;}
+#rew1 {
+  float: left;
+  width: 300px;
+  margin-right: 0px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+padding-left: 10%;
+border-bottom: 0.1cm;}
+#rew2 {
+  float:left;
+  width: 300px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+padding-left: 10%;
+}
+#fix1 {
+  float: right;
+  width: 300px;
+  margin-right: 100px;
+  margin-bottom: 40px;
+  margin-top: 0px;
+padding-left: 10%;}
+#fix2 {
+  float: right;
+  width: 300px;
+  margin-right: 100px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+padding-left: 10%;}
+
+}
+.logo{width: 25%;float:left;color:rgb(80, 80, 94);font-size: 1.5em;padding-left: 2em;}
+.empty{float: left;width: 25%;font-size: 1em;padding-bottom: 0;padding-left: 2em;}
+.rightnav{float: right;width: 25%;}
+.rew {padding-top: 3em;padding-left: 5em;margin-left: 25px;margin-right: 25px; }
+
